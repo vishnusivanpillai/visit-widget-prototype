@@ -1214,9 +1214,9 @@ export function VisitDashboard() {
     <div className="min-h-screen bg-[#F5F7FA] p-6">
       {/* Page Header */}
       <div className="mb-6">
-        <h1 className="text-[#003781] mb-2">Dashboard</h1>
+        <h1 className="text-[#003781] mb-2">Visit Schedule</h1>
         <p className="text-sm text-[#5A6872]">
-          Manage your property inspection visits
+          View and manage your property inspection visits
         </p>
       </div>
 
@@ -1245,7 +1245,8 @@ export function VisitDashboard() {
         <p className="text-sm text-[#5A6872]">
           ℹ️ This calendar widget can be embedded into your existing
           application. The widget is self-contained and manages visit schedules.
-          Status is read-only and updated from your third-party application.
+          Customers can confirm, decline, or request to reschedule visits directly
+          from the calendar interface.
         </p>
       </div>
     </div>
